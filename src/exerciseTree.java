@@ -43,20 +43,20 @@ public class exerciseTree {
       myHunter.strenght = myWarrior.strenght / 2;
       myDwarf.strenght = myWarrior.strenght / 3;
 
-      Dwarf myDwarf1; // вводим еще одного Дварфа
-      Dwarf myDwarf2; // вводим еще второго Дварфа
-      myDwarf1 = new Dwarf(); 
-      myDwarf2 = myDwarf1; // присваиваем
-      myDwarf1.agility = 0;
+      Dwarf myDwarf1 = new Dwarf();
+      myDwarf = myDwarf1;
+      
+      myDwarf.strenght = myWarrior.strenght / 3;
+      myDwarf.mana = myHunter.mana * 2;
 
       // Пример демонстрирует побочный эффект от передачи объектов по ссылке
       System.out.println("Характеристики Дварфа 1");
         System.out.println("Ловкость: " + myDwarf1.agility);
         System.out.println("Сила: " + myDwarf1.strenght);
         System.out.println("Мана: " + myDwarf1.mana);
-      System.out.println("Характеристики Дварфа 2");
-        System.out.println("Ловкость: " + myDwarf2.agility);
-        System.out.println("Сила: " + myDwarf2.strenght);
-        System.out.println("Мана: " + myDwarf2.mana);
+      System.out.println("Характеристики Дварфа");
+        System.out.println("Ловкость: " + myDwarf.agility);
+        System.out.println("Сила: " + myDwarf.strenght);
+        System.out.println("Мана: " + myDwarf.mana);
     }
 }
