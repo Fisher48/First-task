@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exerciseTwo",
+            "request": "launch",
+            "mainClass": "exerciseTwo",
+            "projectName": "First task_6e7e0b01"
+        },
+        {
+            "type": "java",
+            "name": "exerciseTree",
+            "request": "launch",
+            "mainClass": "exerciseTree",
+            "projectName": "First task_6e7e0b01"
+        },
+        {
+            "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "Exercise",
+            "projectName": "First task_6e7e0b01"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
